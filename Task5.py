@@ -61,4 +61,6 @@ def make_final_polynomial(d: dict):
 d1 = create_dict(data1)
 d2 = create_dict(data2)
 sum_d = sum_dict(d1,d2)
+print(data1)
+print(data2)
 print(make_final_polynomial(sum_d))
